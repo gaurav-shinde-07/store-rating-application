@@ -309,7 +309,7 @@ npm start
 
 ---
 
-## Submission Checklist & Final Notes
+## Checklist & Final Notes
 
 ### Code Quality
 - [ ] Backend code follows Express.js best practices
@@ -357,4 +357,3 @@ npm start
 
 **Last Updated:** January 16, 2026
 
-For questions or clarifications regarding this project, please refer to the project documentation or contact the development team.
