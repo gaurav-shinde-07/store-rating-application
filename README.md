@@ -179,7 +179,7 @@ The application supports three user roles with distinct capabilities:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     FRONTEND (React.js)                      │
+│                     FRONTEND (React.js)                     │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐   │
 │  │ Login Page   │  │ Admin Panel  │  │ Store Ratings    │   │
 │  │              │  │              │  │ Dashboard        │   │
@@ -188,7 +188,7 @@ The application supports three user roles with distinct capabilities:
 │  └──────────────┘  └──────────────┘  └──────────────────┘   │
 └──────────────────────────────────┬──────────────────────────┘
                                    │ HTTP/REST API
-┌──────────────────────────────────┴──────────────────────────┐
+┌──────────────────────────────────┴────────────────────────── ┐
 │                   BACKEND (Express.js)                       │
 │  ┌────────────────────────────────────────────────────────┐  │
 │  │ Authentication & Authorization Middleware              │  │
@@ -196,23 +196,23 @@ The application supports three user roles with distinct capabilities:
 │  └────────────────────────────────────────────────────────┘  │
 │  ┌────────────────────────────────────────────────────────┐  │
 │  │ API Routes & Controllers                               │  │
-│  │  • Auth (Login, Signup, Password Update)              │  │
-│  │  • Users (CRUD, List, Filter, Search)                 │  │
-│  │  • Stores (CRUD, List, Filter, Search)                │  │
-│  │  • Ratings (Submit, Modify, Calculate Average)        │  │
-│  │  • Dashboard (Admin & Store Owner Views)              │  │
+│  │  • Auth (Login, Signup, Password Update)               │  │
+│  │  • Users (CRUD, List, Filter, Search)                  │  │
+│  │  • Stores (CRUD, List, Filter, Search)                 │  │
+│  │  • Ratings (Submit, Modify, Calculate Average)         │  │
+│  │  • Dashboard (Admin & Store Owner Views)               │  │
 │  └────────────────────────────────────────────────────────┘  │
 │  ┌────────────────────────────────────────────────────────┐  │
 │  │ Business Logic & Validation Layer                      │  │
-│  │ Input Validation, Password Hashing, Sorting           │  │
+│  │ Input Validation, Password Hashing, Sorting            │  │
 │  └────────────────────────────────────────────────────────┘  │
-└──────────────────────────────────┬──────────────────────────┘
+└──────────────────────────────────┬────────────────────────── ┘
                                    │ Database Queries
 ┌──────────────────────────────────┴──────────────────────────┐
-│                   DATABASE (PostgreSQL)                      │
+│                   DATABASE (PostgreSQL)                     │
 │  ┌────────────────┐  ┌────────────────┐  ┌──────────────┐   │
-│  │ users table    │  │ stores table    │  │ ratings      │   │
-│  │                │  │                 │  │ table        │   │
+│  │ users table    │  │ stores table   │  │ ratings     │   │
+│  │                │  │                │  │ table       │   │
 │  └────────────────┘  └────────────────┘  └──────────────┘   │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -230,7 +230,7 @@ The application supports three user roles with distinct capabilities:
 
 #### 1. Clone the Repository
 ```bash
-cd c:\Users\gaura\Downloads\store rating application
+https://github.com/gaurav-shinde-07/store-rating-application
 ```
 
 #### 2. Database Setup
