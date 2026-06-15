@@ -355,5 +355,4 @@ npm start
 
 ---
 
-**Last Updated:** January 16, 2026
 
